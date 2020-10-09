@@ -1,4 +1,4 @@
-//Created by David Abellan Navarro 1ºDam 
+//Created by David Abellan Navarro 1ÂºDam 
 package com.dadivaandco.dam.programacion;
 
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class AdivinaElNumero {
 	
 				while (numSecret != num && intentos >1) {
 					if (num < 1 || num > 100)  {
-						System.out.println("Gipollas te he dicho un número entre 1 y 100");
+						System.out.println("El nÃºmero ha de ser entre 1 y 100");
 						intentos += 1;
 					}
 
