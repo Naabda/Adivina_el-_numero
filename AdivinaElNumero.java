@@ -38,10 +38,10 @@ public class AdivinaElNumero {
 					num = numInsert.nextInt();
 
 					
-				}//fin while
+				}
 						
 		if (numSecret == num) {
-			System.out.println("Acertaste");
+			System.out.println("Has acertado en "+ (11-intentos)+" intentos");
 		}
 		
 		else {
